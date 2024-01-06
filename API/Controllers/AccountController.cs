@@ -23,7 +23,7 @@ namespace API.Controllers
         }
 
         [HttpPost("Register")]
-        public async Task<ActionResult<AppUser>> Register(RegisteDto registerDto)
+        public async Task<ActionResult<AppUser>> Register(RegisterDto registerDto)
         {
 
             if (await UserExists(registerDto.Username))

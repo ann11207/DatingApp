@@ -2,7 +2,7 @@
 
 namespace API.DTOs
 {
-    public class RegisteDto
+    public class RegisterDto
     {
         public string Username { get; set; }
 
