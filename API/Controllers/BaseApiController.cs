@@ -11,6 +11,6 @@ namespace API.Controllers
     public class BaseApiController : ControllerBase
     {
          
-        //clip 38
+        
     }
 }
